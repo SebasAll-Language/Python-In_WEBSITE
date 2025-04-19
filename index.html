@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/brython@3.10/brython.min.js"></script>
+</head>
+<body onload="brython()">
+    <script type="text/python">
+        from browser import document
+        from webbrowser import open_new_tab
+        document <= "Hello from Python!"
+        open_new_tab('google.com')
+    </script>
+</body>
+</html>
