@@ -6,9 +6,15 @@
 <body onload="brython()">
     <script type="text/python">
         from browser import document
-
+        print("Hello from Python!")
         document <= "Hello from Python!"
+        def hello_world(event):
+            document <= "Hello World!"
+            print("Hello World!")
+    
     </script>
+
+    <button onclick:'hello_world(event)'>Click me!</button>
 
     <style media="screen">
       body{
